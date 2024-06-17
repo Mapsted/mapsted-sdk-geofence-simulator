@@ -27,6 +27,77 @@
         "printedName": "FloorLocationCriteria",
         "children": [
           {
+            "kind": "Var",
+            "name": "floorId",
+            "printedName": "floorId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7floorIdSivp",
+            "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7floorIdSivp",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7floorIdSivg",
+                "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7floorIdSivg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(floorId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FloorLocationCriteria",
+                "printedName": "MapstedGeofence.FloorLocationCriteria",
+                "usr": "s:15MapstedGeofence21FloorLocationCriteriaC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7floorIdACSi_tcfc",
+            "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7floorIdACSi_tcfc",
+            "moduleName": "MapstedGeofence",
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "getLocationCriteriaType",
             "printedName": "getLocationCriteriaType()",
@@ -42,6 +113,7 @@
             "usr": "s:15MapstedGeofence21FloorLocationCriteriaC03getdE4TypeAA0deG0OyF",
             "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC03getdE4TypeAA0deG0OyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -52,6 +124,53 @@
             "name": "Builder",
             "printedName": "Builder",
             "children": [
+              {
+                "kind": "Var",
+                "name": "floorLocationCriteria",
+                "printedName": "floorLocationCriteria",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FloorLocationCriteria",
+                    "printedName": "MapstedGeofence.FloorLocationCriteria",
+                    "usr": "s:15MapstedGeofence21FloorLocationCriteriaC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7BuilderC05floordE0ACvp",
+                "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7BuilderC05floordE0ACvp",
+                "moduleName": "MapstedGeofence",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FloorLocationCriteria",
+                        "printedName": "MapstedGeofence.FloorLocationCriteria",
+                        "usr": "s:15MapstedGeofence21FloorLocationCriteriaC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7BuilderC05floordE0ACvg",
+                    "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7BuilderC05floordE0ACvg",
+                    "moduleName": "MapstedGeofence",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
               {
                 "kind": "Constructor",
                 "name": "init",
@@ -101,6 +220,7 @@
                 "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationI0O_tF",
                 "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationI0O_tF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl"
                 ],
@@ -134,6 +254,7 @@
                 "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl"
                 ],
@@ -155,6 +276,7 @@
                 "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7BuilderC5buildACyF",
                 "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7BuilderC5buildACyF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl"
                 ],
@@ -165,15 +287,68 @@
             "usr": "s:15MapstedGeofence21FloorLocationCriteriaC7BuilderC",
             "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC7BuilderC",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FloorLocationCriteria",
+                "printedName": "MapstedGeofence.FloorLocationCriteria",
+                "usr": "s:15MapstedGeofence21FloorLocationCriteriaC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence21FloorLocationCriteriaCACycfc",
+            "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaCACycfc",
+            "moduleName": "MapstedGeofence",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getCppLocationCriteria",
+            "printedName": "getCppLocationCriteria()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MapstedCore.ICppLocationCriteria?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICppLocationCriteria",
+                    "printedName": "MapstedCore.ICppLocationCriteria",
+                    "usr": "c:objc(pl)ICppLocationCriteria"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence21FloorLocationCriteriaC06getCppdE0So04ICppdE0_pSgyF",
+            "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC06getCppdE0So04ICppdE0_pSgyF",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
         "usr": "s:15MapstedGeofence21FloorLocationCriteriaC",
         "mangledName": "$s15MapstedGeofence21FloorLocationCriteriaC",
         "moduleName": "MapstedGeofence",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -190,6 +365,13 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ILocationCriteriaConverter",
+            "printedName": "ILocationCriteriaConverter",
+            "usr": "s:15MapstedGeofence26ILocationCriteriaConverterP",
+            "mangledName": "$s15MapstedGeofence26ILocationCriteriaConverterP"
           }
         ]
       },
@@ -216,6 +398,168 @@
         "printedName": "BaseLocationCriteria",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseLocationCriteria",
+                "printedName": "MapstedGeofence.BaseLocationCriteria",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence20BaseLocationCriteriaCACycfc",
+            "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaCACycfc",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "triggerDirection",
+            "printedName": "triggerDirection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MapstedGeofence.ActivationDirection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivationDirection",
+                    "printedName": "MapstedGeofence.ActivationDirection",
+                    "usr": "s:15MapstedGeofence19ActivationDirectionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvp",
+            "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvp",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MapstedGeofence.ActivationDirection?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivationDirection",
+                        "printedName": "MapstedGeofence.ActivationDirection",
+                        "usr": "s:15MapstedGeofence19ActivationDirectionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvg",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MapstedGeofence.ActivationDirection?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivationDirection",
+                        "printedName": "MapstedGeofence.ActivationDirection",
+                        "usr": "s:15MapstedGeofence19ActivationDirectionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvs",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvs",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvM",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC16triggerDirectionAA010ActivationG0OSgvM",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setTriggerDirection",
+            "printedName": "setTriggerDirection(direction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ActivationDirection",
+                "printedName": "MapstedGeofence.ActivationDirection",
+                "usr": "s:15MapstedGeofence19ActivationDirectionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence20BaseLocationCriteriaC19setTriggerDirection9directionyAA010ActivationH0O_tF",
+            "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC19setTriggerDirection9directionyAA010ActivationH0O_tF",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Function",
             "name": "getLocationDirection",
             "printedName": "getLocationDirection()",
@@ -231,8 +575,150 @@
             "usr": "s:15MapstedGeofence20BaseLocationCriteriaC03getD9DirectionAA010ActivationG0OyF",
             "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC03getD9DirectionAA010ActivationG0OyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "triggerDelay",
+            "printedName": "triggerDelay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvp",
+            "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvp",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvg",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvs",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvs",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvM",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC12triggerDelaySfSgvM",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setTriggerDelay",
+            "printedName": "setTriggerDelay(delayInSeconds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence20BaseLocationCriteriaC15setTriggerDelay14delayInSecondsySf_tF",
+            "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC15setTriggerDelay14delayInSecondsySf_tF",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -261,8 +747,150 @@
             "usr": "s:15MapstedGeofence20BaseLocationCriteriaC15getTriggerDelaySfSgyF",
             "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC15getTriggerDelaySfSgyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "ignoreDelayedEventIfStateChanged",
+            "printedName": "ignoreDelayedEventIfStateChanged",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvp",
+            "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvp",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvg",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvs",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvs",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvM",
+                "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC32ignoreDelayedEventIfStateChangedSbSgvM",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setIgnoreDelayedEventIfStateChanged",
+            "printedName": "setIgnoreDelayedEventIfStateChanged(doIgnore:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence20BaseLocationCriteriaC35setIgnoreDelayedEventIfStateChanged02doG0ySb_tF",
+            "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC35setIgnoreDelayedEventIfStateChanged02doG0ySb_tF",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -291,6 +919,7 @@
             "usr": "s:15MapstedGeofence20BaseLocationCriteriaC35getIgnoreDelayedEventIfStateChangedSbSgyF",
             "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC35getIgnoreDelayedEventIfStateChangedSbSgyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -302,6 +931,7 @@
         "usr": "s:15MapstedGeofence20BaseLocationCriteriaC",
         "mangledName": "$s15MapstedGeofence20BaseLocationCriteriaC",
         "moduleName": "MapstedGeofence",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -331,6 +961,96 @@
         "printedName": "PropertyLocationCriteria",
         "children": [
           {
+            "kind": "Var",
+            "name": "propertyId",
+            "printedName": "propertyId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC10propertyIdSiSgvp",
+            "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC10propertyIdSiSgvp",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC10propertyIdSiSgvg",
+                "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC10propertyIdSiSgvg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(propertyId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PropertyLocationCriteria",
+                "printedName": "MapstedGeofence.PropertyLocationCriteria",
+                "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC10propertyIdACSi_tcfc",
+            "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC10propertyIdACSi_tcfc",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "getLocationCriteriaType",
             "printedName": "getLocationCriteriaType()",
@@ -346,6 +1066,7 @@
             "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC03getdE4TypeAA0deG0OyF",
             "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC03getdE4TypeAA0deG0OyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -407,6 +1128,7 @@
                 "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationI0O_tF",
                 "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationI0O_tF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -441,6 +1163,7 @@
                 "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -463,6 +1186,7 @@
                 "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC7BuilderC5buildACyF",
                 "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC7BuilderC5buildACyF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -474,10 +1198,34 @@
             "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC7BuilderC",
             "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC7BuilderC",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PropertyLocationCriteria",
+                "printedName": "MapstedGeofence.PropertyLocationCriteria",
+                "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence24PropertyLocationCriteriaCACycfc",
+            "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaCACycfc",
+            "moduleName": "MapstedGeofence",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -503,6 +1251,7 @@
             "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC06getCppdE0So04ICppdE0_pSgyF",
             "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC06getCppdE0So04ICppdE0_pSgyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -515,6 +1264,7 @@
         "usr": "s:15MapstedGeofence24PropertyLocationCriteriaC",
         "mangledName": "$s15MapstedGeofence24PropertyLocationCriteriaC",
         "moduleName": "MapstedGeofence",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -531,6 +1281,13 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ILocationCriteriaConverter",
+            "printedName": "ILocationCriteriaConverter",
+            "usr": "s:15MapstedGeofence26ILocationCriteriaConverterP",
+            "mangledName": "$s15MapstedGeofence26ILocationCriteriaConverterP"
           }
         ]
       },
@@ -899,6 +1656,48 @@
           },
           {
             "kind": "Function",
+            "name": "makeTriggerBuilder",
+            "printedName": "makeTriggerBuilder(propertyId:geofenceTrigger:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MapstedCore.CppGeofenceTriggerBuilder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CppGeofenceTriggerBuilder",
+                    "printedName": "MapstedCore.CppGeofenceTriggerBuilder",
+                    "usr": "c:objc(cs)CppGeofenceTriggerBuilder"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GeofenceTrigger",
+                "printedName": "MapstedGeofence.GeofenceTrigger",
+                "usr": "s:15MapstedGeofence0B7TriggerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence0B7ManagerC18makeTriggerBuilder10propertyId08geofenceE0So03CppbeF0CSgSi_AA0bE0CtF",
+            "mangledName": "$s15MapstedGeofence0B7ManagerC18makeTriggerBuilder10propertyId08geofenceE0So03CppbeF0CSgSi_AA0bE0CtF",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "addGeofenceTrigger",
             "printedName": "addGeofenceTrigger(propertyId:geofenceTrigger:)",
             "children": [
@@ -925,6 +1724,7 @@
             "usr": "s:15MapstedGeofence0B7ManagerC03addB7Trigger10propertyId08geofenceE0SbSi_AA0bE0CtF",
             "mangledName": "$s15MapstedGeofence0B7ManagerC03addB7Trigger10propertyId08geofenceE0SbSi_AA0bE0CtF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -967,6 +1767,7 @@
             "usr": "s:15MapstedGeofence0B7ManagerC03addB8Triggers10propertyId08geofenceE0SbSi_SayAA0B7TriggerCGtF",
             "mangledName": "$s15MapstedGeofence0B7ManagerC03addB8Triggers10propertyId08geofenceE0SbSi_SayAA0B7TriggerCGtF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1001,6 +1802,7 @@
             "usr": "s:15MapstedGeofence0B7ManagerC06removeB7Trigger10propertyId08geofenceG0SbSi_SStF",
             "mangledName": "$s15MapstedGeofence0B7ManagerC06removeB7Trigger10propertyId08geofenceG0SbSi_SStF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1029,6 +1831,7 @@
             "usr": "s:15MapstedGeofence0B7ManagerC09removeAllB8Triggers10propertyIdSbSi_tF",
             "mangledName": "$s15MapstedGeofence0B7ManagerC09removeAllB8Triggers10propertyIdSbSi_tF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1056,6 +1859,7 @@
             "usr": "s:15MapstedGeofence0B7ManagerC11addListener16geofenceCallbackyAA0bG0_p_tF",
             "mangledName": "$s15MapstedGeofence0B7ManagerC11addListener16geofenceCallbackyAA0bG0_p_tF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1084,6 +1888,7 @@
             "usr": "s:15MapstedGeofence0B7ManagerC14removeListener16geofenceCallbackSbAA0bG0_p_tF",
             "mangledName": "$s15MapstedGeofence0B7ManagerC14removeListener16geofenceCallbackSbAA0bG0_p_tF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1117,6 +1922,7 @@
             "usr": "s:15MapstedGeofence0B7ManagerC02onB9Triggered10propertyId08geofenceG0ySi_SStF",
             "mangledName": "$s15MapstedGeofence0B7ManagerC02onB9Triggered10propertyId08geofenceG0ySi_SStF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1129,6 +1935,7 @@
         "usr": "s:15MapstedGeofence0B7ManagerC",
         "mangledName": "$s15MapstedGeofence0B7ManagerC",
         "moduleName": "MapstedGeofence",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
@@ -1440,6 +2247,27 @@
           },
           {
             "kind": "Function",
+            "name": "convertToCppTriggerType",
+            "printedName": "convertToCppTriggerType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EnumLocationCriteriaTriggerType",
+                "printedName": "MapstedCore.EnumLocationCriteriaTriggerType",
+                "usr": "c:@E@EnumLocationCriteriaTriggerType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence20LocationCriteriaTypeO019convertToCppTriggerE0So04EnumcdiE0VyF",
+            "mangledName": "$s15MapstedGeofence20LocationCriteriaTypeO019convertToCppTriggerE0So04EnumcdiE0VyF",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
             "children": [
@@ -1583,6 +2411,39 @@
         "printedName": "GeofenceTrigger",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(propertyId:geofenceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GeofenceTrigger",
+                "printedName": "MapstedGeofence.GeofenceTrigger",
+                "usr": "s:15MapstedGeofence0B7TriggerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence0B7TriggerC10propertyId08geofenceE0ACSi_SStcfc",
+            "mangledName": "$s15MapstedGeofence0B7TriggerC10propertyId08geofenceE0ACSi_SStcfc",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "getPropertyId",
             "printedName": "getPropertyId()",
@@ -1598,6 +2459,7 @@
             "usr": "s:15MapstedGeofence0B7TriggerC13getPropertyIdSiyF",
             "mangledName": "$s15MapstedGeofence0B7TriggerC13getPropertyIdSiyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1620,6 +2482,7 @@
             "usr": "s:15MapstedGeofence0B7TriggerC03getB2IdSSyF",
             "mangledName": "$s15MapstedGeofence0B7TriggerC03getB2IdSSyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1642,6 +2505,7 @@
             "usr": "s:15MapstedGeofence0B7TriggerC19getLocationCriteriaAA09ILocationF0_pyF",
             "mangledName": "$s15MapstedGeofence0B7TriggerC19getLocationCriteriaAA09ILocationF0_pyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1709,6 +2573,7 @@
                 "usr": "s:15MapstedGeofence0B7TriggerC7BuilderC19setLocationCriteria08locationG0AeA09ILocationG0_p_tF",
                 "mangledName": "$s15MapstedGeofence0B7TriggerC7BuilderC19setLocationCriteria08locationG0AeA09ILocationG0_p_tF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -1731,6 +2596,7 @@
                 "usr": "s:15MapstedGeofence0B7TriggerC7BuilderC5buildACyF",
                 "mangledName": "$s15MapstedGeofence0B7TriggerC7BuilderC5buildACyF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -1742,6 +2608,7 @@
             "usr": "s:15MapstedGeofence0B7TriggerC7BuilderC",
             "mangledName": "$s15MapstedGeofence0B7TriggerC7BuilderC",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -1752,6 +2619,7 @@
         "usr": "s:15MapstedGeofence0B7TriggerC",
         "mangledName": "$s15MapstedGeofence0B7TriggerC",
         "moduleName": "MapstedGeofence",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -1890,6 +2758,55 @@
             "usr": "s:15MapstedGeofence19ActivationDirectionO7On_ExityA2CmF",
             "mangledName": "$s15MapstedGeofence19ActivationDirectionO7On_ExityA2CmF",
             "moduleName": "MapstedGeofence"
+          },
+          {
+            "kind": "Function",
+            "name": "convertToCppTriggerDirection",
+            "printedName": "convertToCppTriggerDirection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EnumLocationCriteriaTriggerDirection",
+                "printedName": "MapstedCore.EnumLocationCriteriaTriggerDirection",
+                "usr": "c:@E@EnumLocationCriteriaTriggerDirection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence19ActivationDirectionO019convertToCppTriggerD0So020EnumLocationCriteriahD0VyF",
+            "mangledName": "$s15MapstedGeofence19ActivationDirectionO019convertToCppTriggerD0So020EnumLocationCriteriahD0VyF",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertFromCppTriggerDirection",
+            "printedName": "convertFromCppTriggerDirection(cppTriggerDirection:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivationDirection",
+                "printedName": "MapstedGeofence.ActivationDirection",
+                "usr": "s:15MapstedGeofence19ActivationDirectionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EnumLocationCriteriaTriggerDirection",
+                "printedName": "MapstedCore.EnumLocationCriteriaTriggerDirection",
+                "usr": "c:@E@EnumLocationCriteriaTriggerDirection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence19ActivationDirectionO021convertFromCppTriggerD003cpphD0ACSo020EnumLocationCriteriahD0V_tFZ",
+            "mangledName": "$s15MapstedGeofence19ActivationDirectionO021convertFromCppTriggerD003cpphD0ACSo020EnumLocationCriteriahD0V_tFZ",
+            "moduleName": "MapstedGeofence",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -2036,6 +2953,29 @@
         "printedName": "PoiVicinityLocationCriteria",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PoiVicinityLocationCriteria",
+                "printedName": "MapstedGeofence.PoiVicinityLocationCriteria",
+                "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaCACycfc",
+            "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaCACycfc",
+            "moduleName": "MapstedGeofence",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "getLocationCriteriaType",
             "printedName": "getLocationCriteriaType()",
@@ -2051,8 +2991,150 @@
             "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC03geteF4TypeAA0efH0OyF",
             "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC03geteF4TypeAA0efH0OyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "entityZones",
+            "printedName": "entityZones",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MapstedCore.MNEntityZone]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MNEntityZone",
+                    "printedName": "MapstedCore.MNEntityZone",
+                    "usr": "c:objc(cs)MNEntityZone"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvp",
+            "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvp",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedCore.MNEntityZone]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MNEntityZone",
+                        "printedName": "MapstedCore.MNEntityZone",
+                        "usr": "c:objc(cs)MNEntityZone"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvg",
+                "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedCore.MNEntityZone]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MNEntityZone",
+                        "printedName": "MapstedCore.MNEntityZone",
+                        "usr": "c:objc(cs)MNEntityZone"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvs",
+                "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvs",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvM",
+                "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC11entityZonesSaySo12MNEntityZoneCGvM",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addEntityZone",
+            "printedName": "addEntityZone(entityZone:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MNEntityZone",
+                "printedName": "MapstedCore.MNEntityZone",
+                "usr": "c:objc(cs)MNEntityZone"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC13addEntityZone06entityI0ySo08MNEntityI0C_tF",
+            "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC13addEntityZone06entityI0ySo08MNEntityI0C_tF",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -2081,8 +3163,150 @@
             "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC14getEntityZonesSaySo12MNEntityZoneCGyF",
             "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC14getEntityZonesSaySo12MNEntityZoneCGyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "activationThreshold",
+            "printedName": "activationThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvp",
+            "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvp",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvg",
+                "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvs",
+                "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvs",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvM",
+                "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC19activationThresholdSfSgvM",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setActivationThreshold",
+            "printedName": "setActivationThreshold(distanceInMeters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC22setActivationThreshold16distanceInMetersySf_tF",
+            "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC22setActivationThreshold16distanceInMetersySf_tF",
+            "moduleName": "MapstedGeofence",
+            "isOpen": true,
+            "declAttributes": [
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -2111,6 +3335,7 @@
             "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC22getActivationThresholdSfSgyF",
             "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC22getActivationThresholdSfSgyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -2166,6 +3391,7 @@
                 "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationJ0O_tF",
                 "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationJ0O_tF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2200,6 +3426,7 @@
                 "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2228,6 +3455,7 @@
                 "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC13addEntityZone06entityJ0AESo08MNEntityJ0C_tF",
                 "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC13addEntityZone06entityJ0AESo08MNEntityJ0C_tF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2256,6 +3484,7 @@
                 "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC30setActivationDistanceThreshold16distanceInMetersAESf_tF",
                 "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC30setActivationDistanceThreshold16distanceInMetersAESf_tF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2278,6 +3507,7 @@
                 "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC5buildACyF",
                 "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC5buildACyF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2289,6 +3519,7 @@
             "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC",
             "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC7BuilderC",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -2318,6 +3549,7 @@
             "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC06getCppeF0So04ICppeF0_pSgyF",
             "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC06getCppeF0So04ICppeF0_pSgyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -2330,6 +3562,7 @@
         "usr": "s:15MapstedGeofence27PoiVicinityLocationCriteriaC",
         "mangledName": "$s15MapstedGeofence27PoiVicinityLocationCriteriaC",
         "moduleName": "MapstedGeofence",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -2347,6 +3580,13 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ILocationCriteriaConverter",
+            "printedName": "ILocationCriteriaConverter",
+            "usr": "s:15MapstedGeofence26ILocationCriteriaConverterP",
+            "mangledName": "$s15MapstedGeofence26ILocationCriteriaConverterP"
           }
         ]
       },
@@ -2427,6 +3667,50 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ILocationCriteriaConverter",
+        "printedName": "ILocationCriteriaConverter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getCppLocationCriteria",
+            "printedName": "getCppLocationCriteria()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MapstedCore.ICppLocationCriteria?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICppLocationCriteria",
+                    "printedName": "MapstedCore.ICppLocationCriteria",
+                    "usr": "c:objc(pl)ICppLocationCriteria"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MapstedGeofence26ILocationCriteriaConverterP014getCppLocationD0So04ICpphD0_pSgyF",
+            "mangledName": "$s15MapstedGeofence26ILocationCriteriaConverterP014getCppLocationD0So04ICpphD0_pSgyF",
+            "moduleName": "MapstedGeofence",
+            "genericSig": "<τ_0_0 where τ_0_0 : MapstedGeofence.ILocationCriteriaConverter>",
+            "sugared_genericSig": "<Self where Self : MapstedGeofence.ILocationCriteriaConverter>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15MapstedGeofence26ILocationCriteriaConverterP",
+        "mangledName": "$s15MapstedGeofence26ILocationCriteriaConverterP",
+        "moduleName": "MapstedGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2449,6 +3733,96 @@
         "printedName": "BuildingLocationCriteria",
         "children": [
           {
+            "kind": "Var",
+            "name": "buildingId",
+            "printedName": "buildingId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC10buildingIdSiSgvp",
+            "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC10buildingIdSiSgvp",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC10buildingIdSiSgvg",
+                "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC10buildingIdSiSgvg",
+                "moduleName": "MapstedGeofence",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(buildingId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BuildingLocationCriteria",
+                "printedName": "MapstedGeofence.BuildingLocationCriteria",
+                "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC10buildingIdACSi_tcfc",
+            "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC10buildingIdACSi_tcfc",
+            "moduleName": "MapstedGeofence",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "getLocationCriteriaType",
             "printedName": "getLocationCriteriaType()",
@@ -2464,6 +3838,7 @@
             "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC03getdE4TypeAA0deG0OyF",
             "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC03getdE4TypeAA0deG0OyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -2525,6 +3900,7 @@
                 "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationI0O_tF",
                 "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC7BuilderC19setTriggerDirection9directionAeA010ActivationI0O_tF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2559,6 +3935,7 @@
                 "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC7BuilderC15setTriggerDelay14delayInSeconds32ignoreDelayedEventIfStateChangedAESf_SbtF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2581,6 +3958,7 @@
                 "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC7BuilderC5buildACyF",
                 "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC7BuilderC5buildACyF",
                 "moduleName": "MapstedGeofence",
+                "isOpen": true,
                 "declAttributes": [
                   "AccessControl",
                   "RawDocComment"
@@ -2592,10 +3970,34 @@
             "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC7BuilderC",
             "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC7BuilderC",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BuildingLocationCriteria",
+                "printedName": "MapstedGeofence.BuildingLocationCriteria",
+                "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15MapstedGeofence24BuildingLocationCriteriaCACycfc",
+            "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaCACycfc",
+            "moduleName": "MapstedGeofence",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
@@ -2621,6 +4023,7 @@
             "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC06getCppdE0So04ICppdE0_pSgyF",
             "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC06getCppdE0So04ICppdE0_pSgyF",
             "moduleName": "MapstedGeofence",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -2633,6 +4036,7 @@
         "usr": "s:15MapstedGeofence24BuildingLocationCriteriaC",
         "mangledName": "$s15MapstedGeofence24BuildingLocationCriteriaC",
         "moduleName": "MapstedGeofence",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -2649,6 +4053,13 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ILocationCriteriaConverter",
+            "printedName": "ILocationCriteriaConverter",
+            "usr": "s:15MapstedGeofence26ILocationCriteriaConverterP",
+            "mangledName": "$s15MapstedGeofence26ILocationCriteriaConverterP"
           }
         ]
       }
@@ -2657,77 +4068,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/FloorLocationCriteria.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/FloorLocationCriteria.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 21,
       "value": "\"MapstedGeofence.FloorLocationCriteria\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PropertyLocationCriteria.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PropertyLocationCriteria.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 24,
       "value": "\"MapstedGeofence.PropertyLocationCriteria\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "Array",
       "offset": 2593,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4420,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "Array",
-      "offset": 4973,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6238,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6260,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7203,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7233,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
       "kind": "Array",
       "offset": 779,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/Mapsted\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/BuildingLocationCriteria.swift",
+      "filePath": "\/Users\/entitybits\/Documents\/Workspace\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/BuildingLocationCriteria.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 24,
