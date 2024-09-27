@@ -14,19 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fkQxTtwyJlnJw8cQWnHe725MHWE=
+		RXy5e3gDo9KpHP0Du9yD4n4NyyE=
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5mHis/JRTetLDsRl1/W1sLz+dmY=
+		B3Fk2ePa6iIqRa9Oif2Z30RXypA=
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		PJBBdDr3FOyYoEe35NwIwhUeCNU=
+		ECjB1mDni/yhFpFSRa3n4ZQFFL4=
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xjJz5+ksVTa2KKv7gsJ4ReZ0uTU=
+		KaZpldPQUm6bUN/mTFSPJROozk0=
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CqX8NOlx02nlizPlD+ZzCa3oZp0=
+		+6wkjDFCrV4fx3wOTN3Vivq3pmE=
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xjJz5+ksVTa2KKv7gsJ4ReZ0uTU=
+		KaZpldPQUm6bUN/mTFSPJROozk0=
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/MapstedGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t64SumYjSTWdtq0poST6rTxxmRw=
+		g5YmXj+3aRnzNQXr6UZPdLTHIKs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -93,21 +93,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BlHBf8Spw7r8hhy3juN/7y5OQLA8D5u544gwfht3cSY=
+			LYpdeid3LzFMWOnn1LlLFhxKtGksrsNNg5MeRS90naQ=
 			</data>
 		</dict>
 		<key>Modules/MapstedGeofence.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9OmP1vxScsMTcCl6uLYw7062ffzfTn8K/K0pDT+YS8=
+			q4tiR/6RyHWTQ5r06qKKoaNikcvmiI3wXoZERDn1wYo=
 			</data>
 		</dict>
 		<key>Modules/MapstedGeofence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GDjsqeML3eacHHBwTLTgBkrVcce5bHwSJUbeCkCibCw=
+			x0rm36yXqI6SCMMMnSF4pMjHXx+H+2eiJtv7DXgsGAI=
 			</data>
 		</dict>
 		<key>Modules/MapstedGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -135,14 +135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rgbTmUoX5Sf/kHAfhcIGOdjRgFaxQewXwa8TBKuUhFI=
+			C7fwgGBUt2sCaH6/UOonMXziRURQOOJrWlKFAnTxAlg=
 			</data>
 		</dict>
 		<key>Modules/MapstedGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GDjsqeML3eacHHBwTLTgBkrVcce5bHwSJUbeCkCibCw=
+			x0rm36yXqI6SCMMMnSF4pMjHXx+H+2eiJtv7DXgsGAI=
 			</data>
 		</dict>
 		<key>Modules/MapstedGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tnoas2DIuOwJOMrfAcG8MlfaRGs9W0n5Xees8QxpdkY=
+			5ILN7W8KnFIBsw1WqmkOJKWyuXWi0yjsqeOf53Jf53s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
