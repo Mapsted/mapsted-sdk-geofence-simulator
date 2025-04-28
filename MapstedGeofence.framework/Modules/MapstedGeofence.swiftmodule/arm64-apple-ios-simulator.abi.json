@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MapstedGeofence",
+    "printedName": "MapstedGeofence",
     "children": [
       {
         "kind": "Import",
@@ -167,6 +167,22 @@
             "moduleName": "MapstedGeofence",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -190,6 +206,20 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -306,7 +336,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -477,6 +523,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -487,12 +549,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MapstedCore.ICppLocationCriteria?",
+                "printedName": "(any MapstedCore.ICppLocationCriteria)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ICppLocationCriteria",
-                    "printedName": "MapstedCore.ICppLocationCriteria",
+                    "printedName": "any MapstedCore.ICppLocationCriteria",
                     "usr": "c:objc(pl)ICppLocationCriteria"
                   }
                 ],
@@ -531,6 +593,20 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -612,6 +688,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -782,7 +874,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "GeofenceCallback",
-                "printedName": "MapstedGeofence.GeofenceCallback",
+                "printedName": "any MapstedGeofence.GeofenceCallback",
                 "usr": "s:15MapstedGeofence0B8CallbackP"
               }
             ],
@@ -813,7 +905,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "GeofenceCallback",
-                "printedName": "MapstedGeofence.GeofenceCallback",
+                "printedName": "any MapstedGeofence.GeofenceCallback",
                 "usr": "s:15MapstedGeofence0B8CallbackP"
               }
             ],
@@ -838,6 +930,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1048,7 +1156,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "GeofenceCallback",
-                "printedName": "MapstedGeofence.GeofenceCallback",
+                "printedName": "any MapstedGeofence.GeofenceCallback",
                 "usr": "s:15MapstedGeofence0B8CallbackP"
               }
             ],
@@ -1076,7 +1184,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "GeofenceCallback",
-                "printedName": "MapstedGeofence.GeofenceCallback",
+                "printedName": "any MapstedGeofence.GeofenceCallback",
                 "usr": "s:15MapstedGeofence0B8CallbackP"
               }
             ],
@@ -1134,6 +1242,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "GeofenceApi",
@@ -1546,6 +1668,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1634,7 +1770,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ILocationCriteria",
-                "printedName": "MapstedGeofence.ILocationCriteria",
+                "printedName": "any MapstedGeofence.ILocationCriteria",
                 "usr": "s:15MapstedGeofence17ILocationCriteriaP"
               }
             ],
@@ -1701,7 +1837,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ILocationCriteria",
-                    "printedName": "MapstedGeofence.ILocationCriteria",
+                    "printedName": "any MapstedGeofence.ILocationCriteria",
                     "usr": "s:15MapstedGeofence17ILocationCriteriaP"
                   }
                 ],
@@ -1745,6 +1881,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           }
         ],
@@ -1756,7 +1908,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1997,6 +2165,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2292,6 +2474,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -2302,12 +2500,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MapstedCore.ICppLocationCriteria?",
+                "printedName": "(any MapstedCore.ICppLocationCriteria)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ICppLocationCriteria",
-                    "printedName": "MapstedCore.ICppLocationCriteria",
+                    "printedName": "any MapstedCore.ICppLocationCriteria",
                     "usr": "c:objc(pl)ICppLocationCriteria"
                   }
                 ],
@@ -2347,6 +2545,20 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2424,6 +2636,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2595,6 +2823,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -2605,12 +2849,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "MapstedCore.ICppLocationCriteria?",
+                "printedName": "(any MapstedCore.ICppLocationCriteria)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ICppLocationCriteria",
-                    "printedName": "MapstedCore.ICppLocationCriteria",
+                    "printedName": "any MapstedCore.ICppLocationCriteria",
                     "usr": "c:objc(pl)ICppLocationCriteria"
                   }
                 ],
@@ -2649,6 +2893,20 @@
             "printedName": "ILocationCriteria",
             "usr": "s:15MapstedGeofence17ILocationCriteriaP",
             "mangledName": "$s15MapstedGeofence17ILocationCriteriaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }
@@ -2657,20 +2915,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/FloorLocationCriteria.swift",
-      "kind": "StringLiteral",
-      "offset": 293,
-      "length": 21,
-      "value": "\"MapstedGeofence.FloorLocationCriteria\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PropertyLocationCriteria.swift",
-      "kind": "StringLiteral",
-      "offset": 305,
-      "length": 24,
-      "value": "\"MapstedGeofence.PropertyLocationCriteria\""
-    },
-    {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "Array",
       "offset": 2593,
@@ -2678,60 +2922,11 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4420,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "Array",
-      "offset": 4973,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6238,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6260,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7203,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7233,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
       "kind": "Array",
       "offset": 774,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/BuildingLocationCriteria.swift",
-      "kind": "StringLiteral",
-      "offset": 305,
-      "length": 24,
-      "value": "\"MapstedGeofence.BuildingLocationCriteria\""
     }
   ]
 }
