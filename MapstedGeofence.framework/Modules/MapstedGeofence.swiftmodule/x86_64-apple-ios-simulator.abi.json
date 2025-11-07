@@ -2915,14 +2915,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
+      "filePath": "\/Users\/apple\/Documents\/Mapsted\/RC2-Nearby-Feature\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Api\/GeofenceApi.swift",
       "kind": "Array",
       "offset": 2593,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
+      "filePath": "\/Users\/apple\/Documents\/Mapsted\/RC2-Nearby-Feature\/ios-sdk\/ios-sdk-geofence\/Geofence\/Geofence\/Model\/PoiVicinityLocationCriteria.swift",
       "kind": "Array",
       "offset": 774,
       "length": 2,
