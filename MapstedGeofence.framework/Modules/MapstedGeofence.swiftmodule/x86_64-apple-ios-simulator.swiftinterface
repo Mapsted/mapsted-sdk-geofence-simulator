@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MapstedGeofence
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MapstedGeofence
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 import MapstedCore
 import Swift
@@ -21,8 +21,12 @@ import _SwiftConcurrencyShims
 }
 @_hasMissingDesignatedInitializers public class BaseLocationCriteria {
   public func getLocationDirection() -> MapstedGeofence.ActivationDirection
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getTriggerDelay() -> Swift.Float?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getIgnoreDelayedEventIfStateChanged() -> Swift.Bool?
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PropertyLocationCriteria : MapstedGeofence.BaseLocationCriteria, MapstedGeofence.ILocationCriteria {
@@ -37,7 +41,9 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 extension MapstedGeofence.PropertyLocationCriteria {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCppLocationCriteria() -> (any MapstedCore.ICppLocationCriteria)?
+  #endif
 }
 public protocol GeofenceCallback : AnyObject {
   func onGeofenceTriggered(propertyId: Swift.Int, geofenceId: Swift.String)
@@ -102,7 +108,9 @@ public enum ActivationDirection {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PoiVicinityLocationCriteria : MapstedGeofence.BaseLocationCriteria, MapstedGeofence.ILocationCriteria {
   public func getLocationCriteriaType() -> MapstedGeofence.LocationCriteriaType
   public func getEntityZones() -> [MapstedCore.MNEntityZone]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getActivationThreshold() -> Swift.Float?
+  #endif
   public class Builder {
     public init()
     public func setTriggerDirection(direction: MapstedGeofence.ActivationDirection) -> MapstedGeofence.PoiVicinityLocationCriteria.Builder
@@ -115,7 +123,9 @@ public enum ActivationDirection {
   @objc deinit
 }
 extension MapstedGeofence.PoiVicinityLocationCriteria {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCppLocationCriteria() -> (any MapstedCore.ICppLocationCriteria)?
+  #endif
 }
 public protocol ILocationCriteria {
   func getLocationCriteriaType() -> MapstedGeofence.LocationCriteriaType
@@ -133,7 +143,9 @@ public protocol ILocationCriteria {
   @objc deinit
 }
 extension MapstedGeofence.BuildingLocationCriteria {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getCppLocationCriteria() -> (any MapstedCore.ICppLocationCriteria)?
+  #endif
 }
 extension MapstedGeofence.LocationCriteriaType : Swift.Equatable {}
 extension MapstedGeofence.LocationCriteriaType : Swift.Hashable {}
